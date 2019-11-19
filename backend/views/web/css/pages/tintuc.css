@@ -1,0 +1,266 @@
+.tag-news {
+  float: left;
+  width: 100%;
+  padding: 20px 0px; }
+  .tag-news ul {
+    padding: 0px;
+    margin: 0px; }
+    .tag-news ul li {
+      float: left;
+      list-style: none;
+      height: 27px;
+      border-radius: 3px;
+      margin-right: 10px;
+      text-align: center; }
+      @media (min-width: 992px) {
+        .tag-news ul li {
+          width: 92px !important; } }
+      .tag-news ul li a {
+        display: block;
+        line-height: 27px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: #000000;
+        text-transform: uppercase; }
+        .tag-news ul li a.active {
+          background: #E34536;
+          color: #fff; }
+        .tag-news ul li a:hover {
+          background: #E34536;
+          color: #fff; }
+
+.content-new {
+  float: left;
+  width: 100%;
+  margin-bottom: 100px;
+  margin-top: 15px; }
+  .content-new .news-left {
+    float: left;
+    width: 75%; }
+    @media (max-width: 992px) {
+      .content-new .news-left {
+        float: none;
+        width: 100%; } }
+    .content-new .news-left .list-news-top {
+      float: left;
+      width: 67%; }
+    .content-new .news-left .news-list {
+      float: right;
+      width: 32%; }
+    @media (max-width: 630px) {
+      .content-new .news-left .list-news-top {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px; } }
+    @media (max-width: 630px) {
+      .content-new .news-left .news-list {
+        float: none;
+        width: 100%; } }
+  .content-new .news-rigth {
+    float: right;
+    width: 24%; }
+    @media (max-width: 992px) {
+      .content-new .news-rigth {
+        float: none;
+        width: 100%;
+        clear: both; } }
+
+.list-news-top .item-news-top .img {
+  overflow: hidden; }
+  .list-news-top .item-news-top .img img {
+    width: 100%; }
+.list-news-top .item-news-top .title-news-top h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #313131;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  @media (max-width: 768px) {
+    .list-news-top .item-news-top .title-news-top h2 {
+      font-size: 18px; } }
+  .list-news-top .item-news-top .title-news-top h2:hover {
+    color: #c11c1c; }
+.list-news-top .item-news-top .title-news-top .description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000; }
+
+.news-list ul {
+  padding: 0px; }
+  .news-list ul li {
+    list-style: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+    .news-list ul li:last-child {
+      border-bottom: none; }
+    .news-list ul li:first-child {
+      margin-bottom: 15px;
+      border-bottom: none; }
+      .news-list ul li:first-child a img {
+        width: 100%; }
+      .news-list ul li:first-child a h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #313131; }
+    .news-list ul li a {
+      display: block; }
+      .news-list ul li a h2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        color: #1F1F1F; }
+        .news-list ul li a h2:hover {
+          color: #c11c1c; }
+
+.news-rigth .banner-new-left {
+  margin-bottom: 40px; }
+  .news-rigth .banner-new-left .item-banner {
+    position: relative;
+    margin-bottom: 6px; }
+  .news-rigth .banner-new-left .btn-detail {
+    position: absolute;
+    width: 91px;
+    height: 25px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    bottom: 30px;
+    left: 15px;
+    text-align: center; }
+    .news-rigth .banner-new-left .btn-detail a {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #FFFFFF;
+      display: block;
+      border-radius: 20px;
+      line-height: 25px; }
+      .news-rigth .banner-new-left .btn-detail a:hover {
+        background: #fad400;
+        color: #000; }
+  .news-rigth .banner-new-left .img-qc img {
+    width: 100%;
+    margin-bottom: 5px; }
+
+.news-hot, .product-hot {
+  border: 1px solid rgba(123, 123, 123, 0.1);
+  box-sizing: border-box; }
+  .news-hot .title-news-hot, .product-hot .title-news-hot {
+    width: 100%;
+    height: 43px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    border-top: 2px solid #C9A275;
+    border-bottom: 1px solid rgba(123, 123, 123, 0.1); }
+    .news-hot .title-news-hot h2, .product-hot .title-news-hot h2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: #494949;
+      line-height: 43px;
+      margin: 0;
+      padding-left: 15px; }
+  .news-hot .item-news-hot, .product-hot .item-news-hot {
+    margin-bottom: 30px;
+    padding: 0 15px; }
+    .news-hot .item-news-hot .img, .product-hot .item-news-hot .img {
+      overflow: hidden; }
+      .news-hot .item-news-hot .img img, .product-hot .item-news-hot .img img {
+        width: 100%; }
+    .news-hot .item-news-hot .text-item-news-hot, .product-hot .item-news-hot .text-item-news-hot {
+      margin-top: 5px; }
+      .news-hot .item-news-hot .text-item-news-hot a, .product-hot .item-news-hot .text-item-news-hot a {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: #313131; }
+        .news-hot .item-news-hot .text-item-news-hot a:hover, .product-hot .item-news-hot .text-item-news-hot a:hover {
+          color: #518B4F; }
+      .news-hot .item-news-hot .text-item-news-hot .date img, .product-hot .item-news-hot .text-item-news-hot .date img {
+        margin-right: 5px; }
+      .news-hot .item-news-hot .text-item-news-hot .date span, .product-hot .item-news-hot .text-item-news-hot .date span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        color: #000000;
+        opacity: 0.7; }
+
+.fange-fb {
+  margin-top: 50px; }
+
+.product-hot .item-news-hot .img {
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+
+.list-news-main {
+  border-top: 1px solid rgba(99, 99, 99, 0.2);
+  margin-top: 30px;
+  padding-top: 30px; }
+  .list-news-main .item-news-main {
+    float: left;
+    width: 100%;
+    margin-bottom: 25px; }
+    .list-news-main .item-news-main .img {
+      float: left;
+      width: 290px;
+      overflow: hidden; }
+      @media (max-width: 630px) {
+        .list-news-main .item-news-main .img {
+          float: none;
+          width: 100%;
+          margin-bottom: 15px; } }
+      .list-news-main .item-news-main .img img {
+        width: 100%; }
+    .list-news-main .item-news-main .text-news-main {
+      float: left;
+      width: Calc(100% - 290px - 20px);
+      margin-left: 20px; }
+      @media (max-width: 630px) {
+        .list-news-main .item-news-main .text-news-main {
+          float: none;
+          width: 100%;
+          margin-left: 0px; } }
+      .list-news-main .item-news-main .text-news-main .time-cat .time {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        color: #464646; }
+      .list-news-main .item-news-main .text-news-main .time-cat .cat {
+        color: #FF4231; }
+      .list-news-main .item-news-main .text-news-main a {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        color: #313131; }
+        @media (max-width: 768px) {
+          .list-news-main .item-news-main .text-news-main a {
+            font-size: 18px; } }
+        .list-news-main .item-news-main .text-news-main a:hover {
+          color: #b40808; }
+      .list-news-main .item-news-main .text-news-main .desc-news {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        color: #383838;
+        margin-top: 5px; }
+        @media (max-width: 768px) {
+          .list-news-main .item-news-main .text-news-main .desc-news {
+            font-size: 15px; } }
+
+/*# sourceMappingURL=tintuc.css.map */

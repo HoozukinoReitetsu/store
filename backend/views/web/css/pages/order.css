@@ -1,0 +1,639 @@
+.title-order h2 {
+  margin: 0px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000000; }
+
+.wap-order {
+  width: 100%;
+  float: left;
+  background: #fff;
+  padding-bottom: 90px;
+  padding-top: 30px; }
+  .wap-order .form-order {
+    float: left;
+    width: 58%; }
+    @media (max-width: 992px) {
+      .wap-order .form-order {
+        float: none;
+        width: 100%;
+        margin-bottom: 50px; } }
+  .wap-order .dathang {
+    float: right;
+    width: 40%; }
+    @media (max-width: 992px) {
+      .wap-order .dathang {
+        float: none;
+        width: 100%; } }
+
+.form-order .title-form {
+  margin-bottom: 20px; }
+  .form-order .title-form h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #383838;
+    margin-top: 0px;
+    margin-bottom: 10px; }
+  .form-order .title-form p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #898989;
+    margin: 0px; }
+.form-order .item-input {
+  margin-bottom: 15px; }
+  .form-order .item-input label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #353535;
+    display: block; }
+    .form-order .item-input label span {
+      color: red; }
+  .form-order .item-input input {
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.3);
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px; }
+    .form-order .item-input input::placeholder {
+      color: #B9B9B9; }
+  .form-order .item-input textarea {
+    background: #FFFFFF;
+    border: 1px solid rgba(130, 130, 130, 0.3);
+    box-sizing: border-box;
+    height: 129px;
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px; }
+    .form-order .item-input textarea::placeholder {
+      color: #B9B9B9; }
+.form-order .gr-item {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px; }
+  .form-order .gr-item .input-phone {
+    float: left;
+    width: 49%; }
+    @media (max-width: 479px) {
+      .form-order .gr-item .input-phone {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px; } }
+    .form-order .gr-item .input-phone label {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      color: #353535;
+      display: block; }
+      .form-order .gr-item .input-phone label span {
+        color: red; }
+    .form-order .gr-item .input-phone input {
+      width: 100%;
+      height: 40px;
+      background: #FFFFFF;
+      border: 1px solid rgba(130, 130, 130, 0.3);
+      box-sizing: border-box;
+      padding-left: 15px;
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px; }
+      .form-order .gr-item .input-phone input::placeholder {
+        color: #B9B9B9; }
+  .form-order .gr-item .input-email {
+    float: right;
+    width: 49%; }
+    @media (max-width: 479px) {
+      .form-order .gr-item .input-email {
+        float: none;
+        width: 100%; } }
+    .form-order .gr-item .input-email label {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      color: #353535;
+      display: block; }
+      .form-order .gr-item .input-email label span {
+        color: red; }
+    .form-order .gr-item .input-email input {
+      width: 100%;
+      width: 100%;
+      height: 40px;
+      background: #FFFFFF;
+      border: 1px solid rgba(130, 130, 130, 0.3);
+      box-sizing: border-box;
+      padding-left: 15px;
+      font-family: Roboto;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      color: #B9B9B9; }
+.form-order .order-phone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #323232; }
+  @media (max-width: 479px) {
+    .form-order .order-phone {
+      font-size: 13px; } }
+  .form-order .order-phone b {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: #FA0909; }
+    @media (max-width: 479px) {
+      .form-order .order-phone b {
+        font-size: 18px; } }
+
+.dathang {
+  background: #F2F2F2;
+  border-radius: 0px 0px 5px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: none;
+  padding-bottom: 25px; }
+  .dathang .title-dathang {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    .dathang .title-dathang h2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 19px;
+      line-height: 50px;
+      letter-spacing: 0.05em;
+      color: #000000;
+      padding-left: 30px;
+      margin: 0px; }
+      @media (max-width: 414px) {
+        .dathang .title-dathang h2 {
+          padding-left: 15px; } }
+  .dathang table {
+    margin-top: 25px; }
+    .dathang table thead {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      letter-spacing: 0.05em;
+      color: #313131;
+      padding: 20px 0px; }
+      .dathang table thead th {
+        width: 50%;
+        padding-left: 30px; }
+        @media (max-width: 414px) {
+          .dathang table thead th {
+            padding-left: 15px; } }
+    .dathang table tbody tr {
+      border-bottom: 1px solid #CDCDCD; }
+      .dathang table tbody tr .name-product {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #000000;
+        float: left;
+        width: calc(100% - 65px - 15px);
+        margin-left: 15px; }
+        @media (max-width: 424px) {
+          .dathang table tbody tr .name-product {
+            width: auto;
+            margin-left: 0px; } }
+      .dathang table tbody tr td {
+        width: 35%;
+        padding: 15px 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        color: #000000; }
+        .dathang table tbody tr td:first-child {
+          width: 65%;
+          padding-right: 0px; }
+          .dathang table tbody tr td:first-child .img-item {
+            width: 65px;
+            float: left; }
+            @media (max-width: 424px) {
+              .dathang table tbody tr td:first-child .img-item {
+                display: none; } }
+        @media (max-width: 414px) {
+          .dathang table tbody tr td {
+            padding-left: 15px; } }
+        .dathang table tbody tr td:first-child {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          color: #000000; }
+  .dathang .payment {
+    margin: 0 30px;
+    margin-top: 25px; }
+    @media (max-width: 414px) {
+      .dathang .payment {
+        margin-left: 15px; } }
+    .dathang .payment input {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: #4B4B4B;
+      margin-bottom: 15px; }
+  .dathang .btn-submit {
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px; }
+    @media (max-width: 414px) {
+      .dathang .btn-submit {
+        margin-left: 15px;
+        margin-right: 15px; } }
+    .dathang .btn-submit button {
+      width: 100%;
+      height: 50px;
+      background: #E75454;
+      border: none;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #FFFFFF;
+      text-transform: uppercase; }
+      .dathang .btn-submit button:hover {
+        background: #fad400;
+        color: #000; }
+  .dathang .tt-muasp {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px; }
+    @media (max-width: 414px) {
+      .dathang .tt-muasp {
+        margin-left: 15px;
+        margin-right: 15px; } }
+    .dathang .tt-muasp button {
+      border: unset;
+      width: 100%;
+      height: 50px;
+      padding: 0px;
+      border: none;
+      border: 1px solid rgba(0, 0, 0, 0.5); }
+      .dathang .tt-muasp button a {
+        background: #F2F2F2;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 47px;
+        color: #000;
+        display: block;
+        text-transform: uppercase; }
+        .dathang .tt-muasp button a:hover {
+          background: #83bd6e;
+          color: #000; }
+
+.wap-cart {
+  float: left;
+  width: 100%;
+  background: #fff;
+  padding-bottom: 90px; }
+  .wap-cart .table-cart {
+    width: 100%; }
+  .wap-cart .total-cart {
+    float: right;
+    width: 390px; }
+    @media (max-width: 992px) {
+      .wap-cart .total-cart {
+        float: none;
+        width: 100%;
+        margin-top: 30px; } }
+
+.wap-cart {
+  padding-left: 15px;
+  padding-right: 15px; }
+  .wap-cart .title-cart {
+    margin-bottom: 15px; }
+    .wap-cart .title-cart span {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #000000; }
+  .wap-cart .table-cart table {
+    width: 100%;
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 5px; }
+    .wap-cart .table-cart table thead {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
+      .wap-cart .table-cart table thead tr th {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: left;
+        padding-top: 15px;
+        padding-bottom: 10px; }
+        @media (max-width: 767px) {
+          .wap-cart .table-cart table thead tr th {
+            font-size: 14px; } }
+    .wap-cart .table-cart table tbody .item-cart .img-product {
+      width: 120px;
+      height: 80px; }
+      .wap-cart .table-cart table tbody .item-cart .img-product a:first-child {
+        margin-right: 15px; }
+    .wap-cart .table-cart table tbody .item-cart .name-product {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      color: #000000;
+      padding-left: 15px; }
+      @media (max-height: 767px) {
+        .wap-cart .table-cart table tbody .item-cart .name-product {
+          font-size: 0px; } }
+    .wap-cart .table-cart table tbody .item-cart .price {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      color: #000000; }
+    .wap-cart .table-cart table tbody .item-cart .amount .count form input {
+      width: 82px;
+      height: 39px;
+      border: 1px solid #000000;
+      box-sizing: border-box;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      color: #000000;
+      text-align: center; }
+      @media (max-width: 767px) {
+        .wap-cart .table-cart table tbody .item-cart .amount .count form input {
+          width: 50px;
+          margin: 0 5px; } }
+    .wap-cart .table-cart table tbody .item-cart .total-item-price {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      color: #000000; }
+  .wap-cart .total-cart table {
+    width: 100%; }
+    .wap-cart .total-cart table tr:first-child {
+      border-bottom: 1px solid rgba(186, 186, 186, 0.3); }
+    .wap-cart .total-cart table tr td {
+      padding: 25px; }
+    .wap-cart .total-cart table tr .key {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      color: #000000; }
+    .wap-cart .total-cart table tr .price_tt {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      color: #000000; }
+    .wap-cart .total-cart table tr .price_total {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #000000; }
+  .wap-cart .total-cart .ct-dathang {
+    margin-top: 15px; }
+    .wap-cart .total-cart .ct-dathang button {
+      border: unset;
+      width: 100%;
+      height: 50px;
+      padding: 0px; }
+      .wap-cart .total-cart .ct-dathang button a {
+        background: #E75454;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 50px;
+        color: #FFFFFF;
+        display: block; }
+        .wap-cart .total-cart .ct-dathang button a:hover {
+          background: #fad400;
+          color: #000; }
+  .wap-cart .total-cart .tt-muasp {
+    margin-top: 15px; }
+    .wap-cart .total-cart .tt-muasp button {
+      border: unset;
+      width: 100%;
+      height: 50px;
+      padding: 0px;
+      border: 1px solid rgba(0, 0, 0, 0.5); }
+      .wap-cart .total-cart .tt-muasp button a {
+        background: #fff;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 47px;
+        color: #000;
+        display: block;
+        text-transform: uppercase; }
+        .wap-cart .total-cart .tt-muasp button a:hover {
+          background: #83bd6e;
+          color: #000; }
+  .wap-cart .code-km {
+    float: left;
+    width: 285px;
+    height: 50px;
+    background: #424242;
+    text-align: center;
+    margin-top: 25px;
+    position: relative; }
+    @media (max-width: 425px) {
+      .wap-cart .code-km {
+        width: 100%; } }
+    .wap-cart .code-km:hover .form-code {
+      opacity: 1;
+      top: 57px;
+      visibility: visible; }
+    .wap-cart .code-km span {
+      display: block;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 50px;
+      color: #FFFFFF; }
+    .wap-cart .code-km .form-code {
+      position: absolute;
+      transition: 500ms ease-out 200ms;
+      top: 120px;
+      opacity: 0;
+      visibility: hidden;
+      box-shadow: 0px 0px 9px 1px #c6c6c6;
+      width: 387px;
+      height: 93px;
+      background: #fff;
+      padding: 25px 17px; }
+      .wap-cart .code-km .form-code::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -12px;
+        background: url(../images/ic-top.png);
+        width: 22px;
+        height: 17px;
+        left: 0;
+        right: 0;
+        margin: auto; }
+      @media (max-width: 425px) {
+        .wap-cart .code-km .form-code {
+          width: 100%; } }
+      .wap-cart .code-km .form-code form {
+        display: flex; }
+      .wap-cart .code-km .form-code input:first-child {
+        width: 270px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        color: #838383;
+        padding-left: 15px;
+        height: 40px;
+        line-height: 40px;
+        margin-right: 15px; }
+      .wap-cart .code-km .form-code input:last-child {
+        width: 69px;
+        height: 40px;
+        background: #C9A275;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 40px;
+        color: #FFFFFF;
+        text-align: center;
+        border: none; }
+        .wap-cart .code-km .form-code input:last-child:hover {
+          background: #518b4f; }
+
+.wap-order-success {
+  background: #fff;
+  padding: 0 20px;
+  padding-bottom: 30px;
+  text-align: center; }
+  .wap-order-success .text-success h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #73B374;
+    margin: 0px;
+    margin-bottom: 15px; }
+  .wap-order-success .text-success p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    color: #4E4E4E;
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  .wap-order-success .text-success span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #4E4E4E; }
+  .wap-order-success .btn-control {
+    display: flex;
+    margin-top: 20px; }
+    @media (max-width: 413px) {
+      .wap-order-success .btn-control {
+        display: block; } }
+    .wap-order-success .btn-control .go-back {
+      width: 163px;
+      height: 43px;
+      border: 1px solid #DC3F30;
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin: auto;
+      margin-right: 10px; }
+      @media (max-width: 413px) {
+        .wap-order-success .btn-control .go-back {
+          margin-right: auto;
+          margin-bottom: 20px; } }
+      .wap-order-success .btn-control .go-back a {
+        border-radius: 5px;
+        display: block;
+        line-height: 43px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #DC3F30; }
+        .wap-order-success .btn-control .go-back a:hover {
+          background: #FFCD1E;
+          color: #464646; }
+    .wap-order-success .btn-control .tt-muahang {
+      width: 163px;
+      height: 43px;
+      background: #DC3F30;
+      border-radius: 5px;
+      margin: auto;
+      margin-left: 10px; }
+      @media (max-width: 413px) {
+        .wap-order-success .btn-control .tt-muahang {
+          margin-left: auto; } }
+      .wap-order-success .btn-control .tt-muahang a {
+        border-radius: 5px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #FFFFFF;
+        line-height: 43px;
+        display: block; }
+        .wap-order-success .btn-control .tt-muahang a:hover {
+          background: #79996f;
+          border: 1px solid #DC3F30;
+          color: #000000; }
+
+/*# sourceMappingURL=order.css.map */
