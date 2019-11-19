@@ -40,15 +40,8 @@ class Product {
 	public function insert_product(){
 		$db = new dbConnection();
 		if(isset($_POST['save_product'])){
-			for($i=0; $i< 3; $i++)
-{
- move_uploaded_file($_FILES['file']['tmp_name'][$i],"data/".$_FILES['file']['name'][$i]);
- $url="data/".$_FILES['file']['name'][$i];
- $name=$_FILES['file']['name'][$i];
-}
-			var_dump($_FILES);
-			die();
 			if(isset($_POST['name_item']) && isset($_POST['id_cat']) && checkEmpty($_POST['name_item']) && checkEmpty($_POST['id_cat'])){
+				$maitem=rand(0, 5000);
 				$name_item = checkInput($_POST['name_item']);
 				$id_cat = checkInput($_POST['id_cat']);
 				$price = checkInput($_POST['price']);
@@ -59,6 +52,7 @@ class Product {
 				$item_desc = checkInput($_POST['item_desc']);
 				$manufacturer = checkInput($_POST['manufacturer']);
 				$value = array(
+					'id'=>$maitem,
 					'name_item' => $name_item,
 					'id_cat' => $id_cat,
 					'price' => $price,
@@ -69,7 +63,17 @@ class Product {
 					'item_desc' => $item_desc,
 					'manufacturer' => $manufacturer
 				);
+				// var_dump($db->insert('item',$value));
+				// die();
 				if($db->insert('item',$value)){
+					for($i=0; $i< 3; $i++)
+				{
+						move_uploaded_file($_FILES['img']['tmp_name'][$i],"data/".$_FILES['img']['name'][$i]);
+						$url="data/".$_FILES['img']['name'][$i];
+						$name=$_FILES['img']['name'][$i];
+						$value=array('url'=>$url,'name'=>$name,'id_item'=>$maitem);
+						$db->insert('img',$value);
+				}
 					return true;
 				}else{
 					return false;
