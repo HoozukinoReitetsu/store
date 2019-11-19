@@ -40,6 +40,14 @@ class Product {
 	public function insert_product(){
 		$db = new dbConnection();
 		if(isset($_POST['save_product'])){
+			for($i=0; $i< 3; $i++)
+{
+ move_uploaded_file($_FILES['file']['tmp_name'][$i],"data/".$_FILES['file']['name'][$i]);
+ $url="data/".$_FILES['file']['name'][$i];
+ $name=$_FILES['file']['name'][$i];
+}
+			var_dump($_FILES);
+			die();
 			if(isset($_POST['name_item']) && isset($_POST['id_cat']) && checkEmpty($_POST['name_item']) && checkEmpty($_POST['id_cat'])){
 				$name_item = checkInput($_POST['name_item']);
 				$id_cat = checkInput($_POST['id_cat']);
@@ -118,7 +126,7 @@ class Product {
 		$db = new dbConnection();
 		if(isset($_POST['search'])){
 			$param = $_POST['name_item'];
-			$sql_search = "SELECT * FROM item WHERE name_item LIKE '$param' ";
+			$sql_search = "SELECT * FROM item WHERE name_item LIKE '%$param%' ";
 			$db->query($sql_search);
 			$db->setFetchMode();
 			$products = $db->findAll();

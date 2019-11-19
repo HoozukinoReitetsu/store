@@ -212,6 +212,15 @@ include_once('views/layout/partial/header.php');
 															<div class="errorMessage" id="Product_barcode_em_" style="display:none"></div>
 														</div>
 													</div>
+													<div class="form-group no-margin-left">
+														<label class="col-sm-2 control-label no-padding-left" for="Product_barcode">Ảnh Sản Phẩm</label>
+														<div class="controls col-sm-10">
+															<input class="span12 col-sm-12" name="img[]" type="file">
+															<input class="span12 col-sm-12" name="img[]" type="file">
+															<input class="span12 col-sm-12" name="img[]" type="file">
+															<div class="errorMessage" id="Product_barcode_em_" style="display:none"></div>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
